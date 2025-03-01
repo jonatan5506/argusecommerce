@@ -13,8 +13,8 @@ const CardRelogio = (props) =>{
                             </div>
                             <div className="flip-card-back">
                             <h2 className="logo-card">ArgusTech</h2>
-                                <p>{props.desc}</p>
                                 <p>💲{props.valor}</p>
+                                <p>{props.desc}</p>
                                 {/* <p>Gênero: Masculino</p> */}
                             </div>
                         </div>
